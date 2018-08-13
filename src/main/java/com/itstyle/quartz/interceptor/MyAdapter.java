@@ -15,5 +15,5 @@ public class MyAdapter implements WebMvcConfigurer{
     public void addViewControllers( ViewControllerRegistry registry ) {
         registry.addViewController( "/" ).setViewName( "forward:/login.shtml" );
         registry.setOrder( Ordered.HIGHEST_PRECEDENCE );
-    } 
+    }
 }
